@@ -67,3 +67,7 @@ a {
 a:hover {
   color: #A40000;
 }
+font-face {
+  font-family: "radiumcorp";
+  src: url("https://pjeffer89.github.io/web115/styles/radiumcorp.ttf");
+}
