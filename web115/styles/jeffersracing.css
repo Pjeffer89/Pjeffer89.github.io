@@ -47,6 +47,14 @@ p {
   color: #E8E4C9;
   background-color: #18191A;
 }
+p.codeoutput {
+  background-color: #000000;
+  margin-top: 0px;
+}
+p.codeinput {
+  background-color: #18191A;
+  margin-bottom: 0px;
+}
 div {
   background-color: #18191A;
   padding-bottom: 10px;
