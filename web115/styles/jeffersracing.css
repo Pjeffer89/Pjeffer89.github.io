@@ -81,3 +81,6 @@ a:hover {
   font-family: "Futura";
   src: url('https://pjeffer89.github.io/web115/styles/Futura.ttf');
 }
+input {
+  width: 15%;
+}
