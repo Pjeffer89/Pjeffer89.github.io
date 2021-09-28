@@ -47,14 +47,6 @@ p {
   color: #E8E4C9;
   background-color: #18191A;
 }
-p.codeoutput {
-  background-color: #000000;
-  margin-top: 0px;
-}
-p.codeinput {
-  background-color: #18191A;
-  margin-bottom: 0px;
-}
 div {
   background-color: #18191A;
   padding-bottom: 10px;
@@ -62,6 +54,12 @@ div {
 ul {
   text-align: left;
   font-size: 1.2em;
+}
+ul.toc {
+  text-align: center;
+  font-size: 1.8em;
+  list-style-type: none;
+  padding-top: 20px;
 }
 footer {
   background-color: #18191A;
