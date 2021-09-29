@@ -61,6 +61,10 @@ ul.toc {
   list-style-type: none;
   padding-top: 20px;
 }
+ul.fizzbuzzOut {
+  text-align: center;
+  list-style-type: none;
+}
 footer {
   background-color: #18191A;
   padding-top: 10px;
