@@ -1,101 +1,115 @@
-h1
-{
-  text-align: center;
-  font-family: helvetica, sans-serif;
-  color: #001F3F;
-  background-color: rgb(100, 84, 84);
-  font-size: 300%;
+body {
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 130%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-h2
-{
-  text-align: center;
-  font-family: helvetica, sans-serif;
-  color: #001F3F;
-  background-color: rgb(100, 84, 84);
-  font-size: 200%;
-}
-h3
-{
-  text-align: center;
-  font-family: helvetica, sans-serif;
-  color: #001F3F;
-  background-color: rgb(100, 84, 84);
-  font-size: 150%;
-}
-h6
-{
-  font-family: helvetica, sans-serif;
-}
-body
-{
-  font-family: helvetica, sans-serif;
-  color: #001F3F;
-  background-color: rgb(100, 84, 84);
-  font-size: 130%;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-nav{
-  text-align: center;
-}
-li:not(:last-child) {
-margin-bottom: 1rem;
-}
-img{
-  max-width: 100%;
-  height: auto;
-}
+
 footer {
-  font-size: 80%;
-  margin-left: 50px;
-  margin-right: 50px;
+    font-size: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+nav {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 150%;
+}
+
+h6 {
+    font-family: helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
-  color: #FF851B;
-  text-decoration: none;
+    color: #ff851b;
+    text-decoration: none;
 }
+
 a:hover {
-  color: #FEDA14;
+    color: #feda14;
 }
+
 figure {
-  text-align: center;
+    text-align: center;
 }
+
 figcaption {
-  font-size: 0.90em;
-  text-align: center;
-  font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    font-style: italic;
 }
-.gokart{
-  text-align: center;
-  
-}
+
 article {
-  text-align: center;
+    text-align: center;
 }
+
 table {
-  width: 850px;
-  margin: auto;
-  border: 3px solid #001F3F;
+    width: 850px;
+    margin: auto;
+    border: 3px solid #001f3f;
 }
+
 caption {
-  text-align: center;
-  font-family: helvetica, sans-serif;
-  font-weight: bold;
-  color: #001F3F;
-  font-size: 150%;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    color: #001f3f;
+    font-size: 150%;
 }
+
 th {
-  border: 2px solid #001F3F;
-  font-weight: bold;
-  font-size: 120%;
+    border: 2px solid #001f3f;
+    font-weight: bold;
+    font-size: 120%;
 }
+
 td {
-  border: 1px solid #001F3F;
-  text-align: center;
+    border: 1px solid #001f3f;
+    text-align: center;
 }
-.instructions {
-  text-align: left;
-}
+
 address {
-  text-align: center;
+    text-align: center;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.gokart {
+    text-align: center;
+}
+
+.instructions {
+    text-align: left;
 }

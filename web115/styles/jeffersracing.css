@@ -1,90 +1,106 @@
 body {
-  background-image: url(https://pjeffer89.github.io/web115/images/carbonbg.png);
-  text-align: center;
-  font-size: 1.2em;
-  font-family: Futura, helvetica, sans-serif;
-  color: #E8E4C9;
-  background-color: #18191A;
-  }
-h1 {
-  color: #E8E4C9;
-  text-align: center;
-  font-family: radiumcorp, Futura, sans-serif;
-  font-size: 130px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  }
-figure {
-  text-align: center;
+    background-image: url(https://pjeffer89.github.io/web115/images/carbonbg.png);
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Futura, helvetica, sans-serif;
+    color: #e8e4c9;
+    background-color: #18191a;
 }
-figcaption {
-  color: #E8E4C9;
-  font-family: Futura, Helvetica, sans-serif;
-  font-size: 1em;
-  text-align: center;
-  font-style: italic;
-}
-h2
-{
-  text-align: center;
-  font-family: Futura, helvetica, sans-serif;
-  color: #E8E4C9;
-  background-color: #18191A;
-  font-size: 3em;
-  margin-bottom: 0px;
-}
-h3 {
-  font-size: 2em;
-}
-h4 {
-  font-size: 1.5em;
-  margin-bottom: 0px;
-}
-p {
-  text-align: center;
-  font-size: 1.2em;
-  font-family: Futura, helvetica, sans-serif;
-  color: #E8E4C9;
-  background-color: #18191A;
-}
-div {
-  background-color: #18191A;
-  padding-bottom: 10px;
-}
-ul {
-  text-align: left;
-  font-size: 1.2em;
-}
-ul.toc {
-  text-align: center;
-  font-size: 1.8em;
-  list-style-type: none;
-  padding-top: 20px;
-}
-ul.fizzbuzzOut {
-  text-align: center;
-  list-style-type: none;
-}
+
 footer {
-  background-color: #18191A;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    background-color: #18191a;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+h1 {
+    color: #e8e4c9;
+    text-align: center;
+    font-family: radiumcorp, Futura, sans-serif;
+    font-size: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Futura, helvetica, sans-serif;
+    color: #e8e4c9;
+    background-color: #18191a;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+div {
+    background-color: #18191a;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Futura, helvetica, sans-serif;
+    color: #e8e4c9;
+    background-color: #18191a;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    color: #e8e4c9;
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+ul.toc {
+    text-align: center;
+    font-size: 1.8em;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+ul.fizzbuzzOut {
+    text-align: center;
+    list-style-type: none;
+}
+
 a {
-  font-family: Futura, helvetica, sans-serif;
-  color: #E8E4C9;
+    font-family: Futura, helvetica, sans-serif;
+    color: #e8e4c9;
 }
+
 a:hover {
-  color: #A40000;
+    color: #a40000;
 }
+
 @font-face {
-  font-family: "radiumcorp";
-  src: url('https://pjeffer89.github.io/web115/styles/radiumcorp.ttf');
+    font-family: "radiumcorp";
+    src: url("https://pjeffer89.github.io/web115/styles/radiumcorp.ttf");
 }
+
 @font-face {
-  font-family: "Futura";
-  src: url('https://pjeffer89.github.io/web115/styles/Futura.ttf');
+    font-family: "Futura";
+    src: url("https://pjeffer89.github.io/web115/styles/Futura.ttf");
 }
+
 input {
-  width: 15%;
+    width: 15%;
 }
