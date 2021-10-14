@@ -53,6 +53,7 @@ img {
 a {
     color: #ff851b;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
@@ -112,4 +113,8 @@ li:not(:last-child) {
 
 .instructions {
     text-align: left;
+}
+
+#pageBy {
+    text-align: center;
 }
