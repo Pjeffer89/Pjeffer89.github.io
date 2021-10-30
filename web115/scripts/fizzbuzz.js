@@ -1,7 +1,8 @@
-function getName() {
-    let fName = document.getElementById("fName").value;
-    let lName = document.getElementById("lName").value;
-    let mInitial = document.getElementById("mInitial").value;
+function getName() 
+{
+    var fName = document.getElementById("fName").value;
+    var lName = document.getElementById("lName").value;
+    var mInitial = document.getElementById("mInitial").value;
     document.getElementById("greeting").textContent =
         "Welcome to Jeffers Racing and Performance, " +
         fName +
@@ -10,22 +11,26 @@ function getName() {
         ". " +
         lName +
         ".";
-    let counter = prompt(`How high do you want to count, ${fName}?`);
+    var counter = prompt(`How high do you want to count, ${fName}?`);
     fizzbuzzCounter(counter);
 }
 
-function fizzbuzzCounter(count) {
-    for (let a = 0; a <= count; a++) {
+function fizzbuzzCounter(count) 
+{
+    for (var a = 0; a <= count; a++) 
+    {
         var evenOdd;
 
-        if (a % 2 == 0) {
+        if (a % 2 == 0) 
+        {
             evenOdd = "The number is even.";
-        } else {
+        } else 
+        {
             evenOdd = "The number is odd.";
         }
         var newPageElement = document.createElement("li");
         var newOutput = document.createTextNode(
-            a + " Jeffers Racing -- " + evenOdd
+            a + " - Jeffers Racing -- " + evenOdd
         );
         newPageElement.appendChild(newOutput);
         var position = document.getElementsByTagName("ul")[0];
