@@ -1,7 +1,8 @@
-function getName() {
-    let fName = document.getElementById("fName").value;
-    let lName = document.getElementById("lName").value;
-    let mInitial = document.getElementById("mInitial").value;
+function getName() 
+{
+    var fName = document.getElementById("fName").value;
+    var lName = document.getElementById("lName").value;
+    var mInitial = document.getElementById("mInitial").value;
     document.getElementById("greeting").textContent =
         "Welcome to Jeffers Racing and Performance, " +
         fName +
@@ -13,20 +14,26 @@ function getName() {
     newCounter();
 }
 
-function newCounter() {
+function newCounter() 
+{
     var numLines = 140;
     var output;
     var firstDivisor = 3;
     var secondDivisor = 5;
     var thirdDivisor = 15;
-    for (let i = 1; i <= numLines; i++) {
-        if (isDivisible(i, thirdDivisor)) {
+    for (var i = 1; i <= numLines; i++) 
+    {
+        if (isDivisible(i, thirdDivisor)) 
+        {
             output = "Skrrt Brap";
-        } else if (isDivisible(i, secondDivisor)) {
+        } else if (isDivisible(i, secondDivisor)) 
+        {
             output = "Brap";
-        } else if (isDivisible(i, firstDivisor)) {
+        } else if (isDivisible(i, firstDivisor)) 
+        {
             output = "Skrrt";
-        } else {
+        } else 
+        {
             output = "Vroom";
         }
 
@@ -38,10 +45,13 @@ function newCounter() {
     }
 }
 
-function isDivisible(num1, num2) {
-    if (num1 % num2 === 0) {
+function isDivisible(num1, num2) 
+{
+    if (num1 % num2 === 0) 
+    {
         return true;
-    } else {
+    } else 
+    {
         return false;
     }
 }

@@ -1,7 +1,8 @@
-function getName() {
-    let fName = document.getElementById("fName").value;
-    let lName = document.getElementById("lName").value;
-    let mInitial = document.getElementById("mInitial").value;
+function getName() 
+{
+    var fName = document.getElementById("fName").value;
+    var lName = document.getElementById("lName").value;
+    var mInitial = document.getElementById("mInitial").value;
     document.getElementById("greeting").textContent =
         "Welcome to Jeffers Racing and Performance, " +
         fName +
@@ -13,17 +14,23 @@ function getName() {
     newCounter();
 }
 
-function newCounter() {
+function newCounter() 
+{
     var numLines = 140;
     var output;
-    for (let i = 1; i <= numLines; i++) {
-        if (i % 15 === 0) {
+    for (var i = 1; i <= numLines; i++) 
+    {
+        if (i % 15 === 0) 
+        {
             output = "Skrrt Brap";
-        } else if (i % 5 === 0) {
+        } else if (i % 5 === 0) 
+        {
             output = "Brap";
-        } else if (i % 3 === 0) {
+        } else if (i % 3 === 0) 
+        {
             output = "Skrrt";
-        } else {
+        } else 
+        {
             output = "Vroom";
         }
 
