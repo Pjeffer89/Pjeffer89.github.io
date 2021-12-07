@@ -17,12 +17,12 @@ function getName()
 function newCounter() 
 {
     var numLines = 140;
-    var output = '';
     var firstDivisor = 3;
     var secondDivisor = 5;
     var thirdDivisor = 7;
     for (var i = 1; i <= numLines; i++) 
     {
+        var output = "";
         if (isDivisible(i, firstDivisor)) 
         {
             output = output.concat("Skrrt");
