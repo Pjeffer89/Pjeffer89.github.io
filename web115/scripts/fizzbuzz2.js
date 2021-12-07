@@ -32,7 +32,7 @@ function newCounter()
         } else if (isDivisible(i, firstDivisor)) 
         {
             output = "Skrrt";
-        } else 
+        } else if (output === "") 
         {
             output = "Vroom";
         }
