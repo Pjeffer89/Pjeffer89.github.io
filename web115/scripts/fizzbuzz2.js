@@ -17,22 +17,20 @@ function getName()
 function newCounter() 
 {
     var numLines = 140;
-    var output;
     var firstDivisor = 3;
     var secondDivisor = 5;
-    var thirdDivisor = 15;
     for (var i = 1; i <= numLines; i++) 
     {
-        if (isDivisible(i, thirdDivisor)) 
+        var output = "";
+        if (isDivisible(i, firstDivisor)) 
         {
-            output = "Skrrt Brap";
-        } else if (isDivisible(i, secondDivisor)) 
+            output = output.concat("Skrrt");
+        }
+        if (isDivisible(i, secondDivisor)) 
         {
-            output = "Brap";
-        } else if (isDivisible(i, firstDivisor)) 
-        {
-            output = "Skrrt";
-        } else if (output === "") 
+            output = output.concat("Brap");
+        }
+        if (output === "")
         {
             output = "Vroom";
         }
