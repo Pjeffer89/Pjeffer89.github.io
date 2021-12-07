@@ -26,13 +26,16 @@ function newCounter()
         if (isDivisible(i, firstDivisor)) 
         {
             output = output.concat("Skrrt");
-        } else if (isDivisible(i, secondDivisor)) 
+        }
+        if (isDivisible(i, secondDivisor)) 
         {
             output = output.concat("Brap");
-        } else if (isDivisible(i, thirdDivisor)) 
+        }
+        if (isDivisible(i, thirdDivisor)) 
         {
             output = output.concat("BANG!");
-        } else 
+        }
+        if (output === "")
         {
             output = "Vroom";
         }
