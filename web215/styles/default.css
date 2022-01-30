@@ -1,0 +1,120 @@
+body {
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 130%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer {
+    font-size: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    color: #001f3f;
+    background-color: rgb(100, 84, 84);
+    font-size: 150%;
+}
+
+h6 {
+    font-family: helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #ff851b;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #feda14;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9em;
+    text-align: center;
+    font-style: italic;
+}
+
+article {
+    text-align: center;
+}
+
+table {
+    width: 850px;
+    margin: auto;
+    border: 3px solid #001f3f;
+}
+
+caption {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    color: #001f3f;
+    font-size: 150%;
+}
+
+th {
+    border: 2px solid #001f3f;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+td {
+    border: 1px solid #001f3f;
+    text-align: center;
+}
+
+address {
+    text-align: center;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.gokart {
+    text-align: center;
+}
+
+.instructions {
+    text-align: left;
+}
+
+#pageBy {
+    text-align: center;
+}
