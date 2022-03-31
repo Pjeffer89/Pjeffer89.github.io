@@ -19,18 +19,21 @@ nav {
 
 h1 {
     text-align: center;
-    font-family: helvetica, sans-serif;
+    font-family: Futura, sans-serif;
     color: #001f3f;
     background-color: rgb(100, 84, 84);
     font-size: 300%;
+    margin: .3em;
 }
 
 h2 {
     text-align: center;
-    font-family: helvetica, sans-serif;
+    font-family: futura, sans-serif;
     color: #001f3f;
     background-color: rgb(100, 84, 84);
     font-size: 200%;
+    margin-top: .2em;
+    margin-bottom: 0em;
 }
 
 h3 {
@@ -62,6 +65,7 @@ a:hover {
 
 figure {
     text-align: center;
+    margin-top: .5em;
 }
 
 figcaption {
@@ -103,8 +107,13 @@ address {
     text-align: center;
 }
 
-li:not(:last-child) {
-    margin-bottom: 1rem;
+li {
+    margin: .5em;
+}
+
+ul.toc {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .gokart {
