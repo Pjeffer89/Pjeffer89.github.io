@@ -1,8 +1,119 @@
+@font-face {
+    font-family: ferrum;
+    src: url(ferrum.otf);
+}
+
+@font-face {
+    font-family: droidserif;
+    src: url(DroidSerif-Regular.ttf);
+}
+
 body {
     background-color: #286DA8;
 }
 
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+nav.menu {
+    background-color: #B37D4E;
+    height: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+    padding: .5em;
+}
+
+nav.footer {
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+}
+
 h1 {
     font-family: ferrum, helvetica, sans-serif;
+    font-size: 4em;
     color: white;
+    text-align: center;
+    margin: .2em;
+}
+
+h3 {
+    font-family: ferrum, helvetica, sans-serif;
+    font-size: 2.8em;
+    color: white;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: .6em;
+}
+
+h4 {
+    font-family: ferrum, helvetica, sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    margin: 0em;
+}
+
+h6 {
+    font-family: ferrum, helvetica, sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+    margin: 0em;
+}
+
+figure {
+    text-align: center;
+}
+
+div.div1 {
+    padding: 2em;
+    height: auto;
+    background-color: #CD5360;
+}
+
+div.div2 {
+    background-color: #B37D4E;
+    padding: 2em;
+    height: auto;
+}
+
+div.div3 {
+    background-color: #438496;
+    padding: 2em;
+    height: auto;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: .5em;
+}
+
+ul {
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: .3em;
+}
+
+a {
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: #CD5360
 }
