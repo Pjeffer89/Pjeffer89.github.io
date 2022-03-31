@@ -1,8 +1,8 @@
-#brandheader {
+body {
     background-color: #286DA8;
 }
 
 h1 {
-    font-family: ferrum;
+    font-family: ferrum, helvetica, sans-serif;
     color: white;
 }
