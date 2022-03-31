@@ -114,6 +114,7 @@ li {
 ul.toc {
     text-align: center;
     text-decoration: underline;
+    list-style: none;
 }
 
 .gokart {
