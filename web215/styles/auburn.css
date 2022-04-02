@@ -70,6 +70,10 @@ figure {
     text-align: center;
 }
 
+figcaption {
+    color: white;
+}
+
 div.div1 {
     padding: 2em;
     height: auto;
@@ -102,6 +106,11 @@ ul {
     color: white;
 }
 
+ul.toc {
+    font-size: 1.8em;
+    text-align: center;
+}
+
 li {
     list-style: none;
     padding: .3em;
@@ -113,6 +122,10 @@ a {
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+a.bio {
+    font-size: 1em;
 }
 
 a:hover {
