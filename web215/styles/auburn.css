@@ -131,3 +131,11 @@ a.bio {
 a:hover {
     color: #438496
 }
+
+form {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+
+}
