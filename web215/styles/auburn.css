@@ -112,6 +112,7 @@ a {
     font-family: droidserif, helvetica, sans-serif;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 
 a:hover {
