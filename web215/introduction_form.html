@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>Patrick Jeffers WEB215 Introduction</title>
     <link rel="stylesheet" type="text/css" href="styles/auburn.css" />
+    <script src="scripts/introductionform.js"></script>
 </head>
 
 <body>
@@ -51,8 +52,13 @@
                 <textarea id="funnyInteresting" rows="4" cols="70" required>I'm a bit of a motor sports junkie. I love riding motorcycles, go karts, and I have a racecar that I’ve spent years building and enjoy driving at various events.</textarea><br>
 
                 <label for="alsoShare">I'd Also Like To Share: </label><br>
-                <textarea id="alsoShare" rows="4" cols="70" required>I'm hoping this new career path will open some opportunities for me in the future. The ability to work more remotely and allow some flexibility to travel more sounds really appealing.</textarea>
+                <textarea id="alsoShare" rows="4" cols="70" required>I'm hoping this new career path will open some opportunities for me in the future. The ability to work more remotely and allow some flexibility to travel more sounds really appealing.</textarea><br>
+
+                <input type="button" id="submit" onclick="return formSubmit()" value="Submit"/>
             </form>
+        </div>
+        <div class="div3">
+            <ul id="formOutput"></ul>
         </div>
     </main>
     <footer>
