@@ -30,6 +30,12 @@
         </div>
         <div class="div2">
             <form id="introduction">
+                <label for="firstName">First Name: </label><br>
+                <textarea id="firstName" rows="1" cols="30" required>Patrick</textarea><br>
+
+                <label for="lastName">Last Name: </label><br>
+                <textarea id="lastName" rows="1" cols="30" required>Jeffers</textarea><br>
+
                 <label for="personalBackground">Personal Background: </label><br>
                 <textarea id="personalBackground" rows="4" cols="70" required>I'm 32 and have lived in the Charlotte area for almost all of it. I'm a man of 1000 hobbies and hope to make programming a new career path for me or at least hobby 1001.</textarea><br>
 
@@ -54,6 +60,30 @@
                 <label for="alsoShare">I'd Also Like To Share: </label><br>
                 <textarea id="alsoShare" rows="4" cols="70" required>I'm hoping this new career path will open some opportunities for me in the future. The ability to work more remotely and allow some flexibility to travel more sounds really appealing.</textarea><br>
 
+                <label for="codeLanguages">Code Languages: </label><br>
+                    <input type="checkbox" id="html" name="codeLanguages" value="html">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="codeLanguages" value="css">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="javascript" name="codeLanguages" value="javascript">
+                    <label for="javascript">Javascript</label><br>
+                    <input type="checkbox" id="java" name="codeLanguages" value="java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="sql" name="codeLanguages" value="sql">
+                    <label for="sql">SQL</label><br>
+                    <input type="checkbox" id="python" name="codeLanguages" value="python">
+                    <label for="python">Python</label><br><br>
+
+                <label for="graduationYear">Graduation Year: </label><br>
+                    <input type="radio" id="2022" name="graduationYear" value="2022">
+                    <label for="2022">2022</label><br>
+                    <input type="radio" id="2023" name="graduationYear" value="2023">
+                    <label for="2023">2023</label><br>
+                    <input type="radio" id="2024" name="graduationYear" value="2024">
+                    <label for="2024">2024</label><br>
+                    <input type="radio" id="2025" name="graduationYear" value="2025">
+                    <label for="2025">2025</label><br><br>
+                
                 <input type="button" id="submit" onclick="return formSubmit()" value="Submit"/>
             </form>
         </div>
