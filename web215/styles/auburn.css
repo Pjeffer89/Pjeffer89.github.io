@@ -139,3 +139,12 @@ form {
     color: white;
 
 }
+
+textarea {
+    background-color: #286DA8;
+    font-size: 1em;
+    font-family: droidserif, helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: .5em;
+}
