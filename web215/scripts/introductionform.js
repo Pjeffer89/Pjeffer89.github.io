@@ -12,10 +12,6 @@ function formSubmit()
     var courses = "Courses I'm Taking, Why: " + document.getElementById('courses').value;
     var funnyInteresting = "Funny/Interesting item about yourself: " + document.getElementById('funnyInteresting').value;
     var alsoShare = "I'd Also Like To Share: " + document.getElementById('alsoShare').value;
-    var graduationYear = document.querySelector('input[name="graduationYear"]:checked');
-    
-    // To pass to introOutput().
-    var outputDetails = [firstName, lastName, personalBackground, professionalBackground, academicBackground, subjectBackground, computerPlatform, courses, funnyInteresting, alsoShare, outputLanguages, graduationYear];
 
     // Checkboxes
     var codeLanguages = document.querySelectorAll('input[name="codeLanguages"]:checked');
@@ -24,7 +20,11 @@ function formSubmit()
     var outputLanguages = ("Code Languages: " + languages);
 
     // Radio
+    var graduationYear = document.querySelector('input[name="graduationYear"]:checked');
     var graduation = ('Graduating: ' + graduationYear.value);
+
+    // To pass to introOutput().
+    var outputDetails = [firstName, lastName, personalBackground, professionalBackground, academicBackground, subjectBackground, computerPlatform, courses, funnyInteresting, alsoShare, outputLanguages, graduation];
     
     // Call function to display form data.
     introOutput(outputDetails);
